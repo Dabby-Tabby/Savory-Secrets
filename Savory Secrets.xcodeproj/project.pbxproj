@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0104902C4CC0C500576119 /* Savory_SecretsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E01048F2C4CC0C500576119 /* Savory_SecretsApp.swift */; };
+		2E0104922C4CC0C500576119 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0104912C4CC0C500576119 /* ContentView.swift */; };
+		2E0104942C4CC0C500576119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0104932C4CC0C500576119 /* Assets.xcassets */; };
+		2E0104972C4CC0C500576119 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0104962C4CC0C500576119 /* Preview Assets.xcassets */; };
+		2E0104A12C4CC0C500576119 /* Savory_SecretsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0104A02C4CC0C500576119 /* Savory_SecretsTests.swift */; };
+		2E0104AB2C4CC0C600576119 /* Savory_SecretsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0104AA2C4CC0C600576119 /* Savory_SecretsUITests.swift */; };
+		2E0104AD2C4CC0C600576119 /* Savory_SecretsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0104AC2C4CC0C600576119 /* Savory_SecretsUITestsLaunchTests.swift */; };
+		2E0104BB2C4CC0F000576119 /* CreateRecipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0104BA2C4CC0F000576119 /* CreateRecipeButton.swift */; };
+		2E0104BD2C4CC11500576119 /* ViewRecipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0104BC2C4CC11500576119 /* ViewRecipeButton.swift */; };
+		2E0104BF2C4CC12600576119 /* ShoppingListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0104BE2C4CC12600576119 /* ShoppingListButton.swift */; };
+		2E2747C02C4D94A4003AEDEB /* AssetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2747BF2C4D94A4003AEDEB /* AssetList.swift */; };
+		2E2747C52C4D9910003AEDEB /* SavorySecretsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2747C42C4D9910003AEDEB /* SavorySecretsLogo.png */; };
+		2E53B7242C4DC8930014D565 /* ChickenAndRice.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E53B7232C4DC8930014D565 /* ChickenAndRice.png */; };
+		2EAEAC632C4DAB4200491DFB /* SavorySecretModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EAEAC612C4DAB4200491DFB /* SavorySecretModel.xcdatamodeld */; };
+		2EAEAC652C4DB44800491DFB /* ShoppingListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAEAC642C4DB44800491DFB /* ShoppingListPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E01049D2C4CC0C500576119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E0104842C4CC0C500576119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E01048B2C4CC0C500576119;
+			remoteInfo = "Savory Secrets";
+		};
+		2E0104A72C4CC0C600576119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E0104842C4CC0C500576119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E01048B2C4CC0C500576119;
+			remoteInfo = "Savory Secrets";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E01048C2C4CC0C500576119 /* Savory Secrets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Savory Secrets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E01048F2C4CC0C500576119 /* Savory_SecretsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savory_SecretsApp.swift; sourceTree = "<group>"; };
+		2E0104912C4CC0C500576119 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E0104932C4CC0C500576119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E0104962C4CC0C500576119 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E01049C2C4CC0C500576119 /* Savory SecretsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Savory SecretsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0104A02C4CC0C500576119 /* Savory_SecretsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savory_SecretsTests.swift; sourceTree = "<group>"; };
+		2E0104A62C4CC0C600576119 /* Savory SecretsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Savory SecretsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0104AA2C4CC0C600576119 /* Savory_SecretsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savory_SecretsUITests.swift; sourceTree = "<group>"; };
+		2E0104AC2C4CC0C600576119 /* Savory_SecretsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savory_SecretsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E0104BA2C4CC0F000576119 /* CreateRecipeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRecipeButton.swift; sourceTree = "<group>"; };
+		2E0104BC2C4CC11500576119 /* ViewRecipeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRecipeButton.swift; sourceTree = "<group>"; };
+		2E0104BE2C4CC12600576119 /* ShoppingListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListButton.swift; sourceTree = "<group>"; };
+		2E2747BF2C4D94A4003AEDEB /* AssetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetList.swift; sourceTree = "<group>"; };
+		2E2747C42C4D9910003AEDEB /* SavorySecretsLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SavorySecretsLogo.png; path = ../../../../../Downloads/SavorySecretsLogo.png; sourceTree = "<group>"; };
+		2E53B7232C4DC8930014D565 /* ChickenAndRice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChickenAndRice.png; path = ../../../../../../../var/folders/49/8nmwyxqd6h3dc2fp9fsp2hz40000gn/T/TemporaryItems/NSIRD_screencaptureui_w7D3R9/ChickenAndRice.png; sourceTree = "<group>"; };
+		2EAEAC622C4DAB4200491DFB /* SavorySecretModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavorySecretModel.xcdatamodel; sourceTree = "<group>"; };
+		2EAEAC642C4DB44800491DFB /* ShoppingListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E0104892C4CC0C500576119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0104992C4CC0C500576119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0104A32C4CC0C600576119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E0104832C4CC0C500576119 = {
+			isa = PBXGroup;
+			children = (
+				2E01048E2C4CC0C500576119 /* Savory Secrets */,
+				2E01049F2C4CC0C500576119 /* Savory SecretsTests */,
+				2E0104A92C4CC0C600576119 /* Savory SecretsUITests */,
+				2E01048D2C4CC0C500576119 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E01048D2C4CC0C500576119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E01048C2C4CC0C500576119 /* Savory Secrets.app */,
+				2E01049C2C4CC0C500576119 /* Savory SecretsTests.xctest */,
+				2E0104A62C4CC0C600576119 /* Savory SecretsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E01048E2C4CC0C500576119 /* Savory Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				2E2747C12C4D98F1003AEDEB /* Images */,
+				2E0104B92C4CC0DA00576119 /* Menu */,
+				2E01048F2C4CC0C500576119 /* Savory_SecretsApp.swift */,
+				2E0104912C4CC0C500576119 /* ContentView.swift */,
+				2E0104932C4CC0C500576119 /* Assets.xcassets */,
+				2E0104952C4CC0C500576119 /* Preview Content */,
+			);
+			path = "Savory Secrets";
+			sourceTree = "<group>";
+		};
+		2E0104952C4CC0C500576119 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E0104962C4CC0C500576119 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E01049F2C4CC0C500576119 /* Savory SecretsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E0104A02C4CC0C500576119 /* Savory_SecretsTests.swift */,
+			);
+			path = "Savory SecretsTests";
+			sourceTree = "<group>";
+		};
+		2E0104A92C4CC0C600576119 /* Savory SecretsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E0104AA2C4CC0C600576119 /* Savory_SecretsUITests.swift */,
+				2E0104AC2C4CC0C600576119 /* Savory_SecretsUITestsLaunchTests.swift */,
+			);
+			path = "Savory SecretsUITests";
+			sourceTree = "<group>";
+		};
+		2E0104B92C4CC0DA00576119 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2E2747C82C4D9B17003AEDEB /* Toolbar */,
+				2E2747BF2C4D94A4003AEDEB /* AssetList.swift */,
+				2EAEAC642C4DB44800491DFB /* ShoppingListPage.swift */,
+				2EAEAC612C4DAB4200491DFB /* SavorySecretModel.xcdatamodeld */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		2E2747C12C4D98F1003AEDEB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2E53B7232C4DC8930014D565 /* ChickenAndRice.png */,
+				2E2747C42C4D9910003AEDEB /* SavorySecretsLogo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2E2747C82C4D9B17003AEDEB /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				2E0104BA2C4CC0F000576119 /* CreateRecipeButton.swift */,
+				2E0104BC2C4CC11500576119 /* ViewRecipeButton.swift */,
+				2E0104BE2C4CC12600576119 /* ShoppingListButton.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E01048B2C4CC0C500576119 /* Savory Secrets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0104B02C4CC0C600576119 /* Build configuration list for PBXNativeTarget "Savory Secrets" */;
+			buildPhases = (
+				2E0104882C4CC0C500576119 /* Sources */,
+				2E0104892C4CC0C500576119 /* Frameworks */,
+				2E01048A2C4CC0C500576119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Savory Secrets";
+			productName = "Savory Secrets";
+			productReference = 2E01048C2C4CC0C500576119 /* Savory Secrets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E01049B2C4CC0C500576119 /* Savory SecretsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0104B32C4CC0C600576119 /* Build configuration list for PBXNativeTarget "Savory SecretsTests" */;
+			buildPhases = (
+				2E0104982C4CC0C500576119 /* Sources */,
+				2E0104992C4CC0C500576119 /* Frameworks */,
+				2E01049A2C4CC0C500576119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E01049E2C4CC0C500576119 /* PBXTargetDependency */,
+			);
+			name = "Savory SecretsTests";
+			productName = "Savory SecretsTests";
+			productReference = 2E01049C2C4CC0C500576119 /* Savory SecretsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E0104A52C4CC0C600576119 /* Savory SecretsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0104B62C4CC0C600576119 /* Build configuration list for PBXNativeTarget "Savory SecretsUITests" */;
+			buildPhases = (
+				2E0104A22C4CC0C600576119 /* Sources */,
+				2E0104A32C4CC0C600576119 /* Frameworks */,
+				2E0104A42C4CC0C600576119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E0104A82C4CC0C600576119 /* PBXTargetDependency */,
+			);
+			name = "Savory SecretsUITests";
+			productName = "Savory SecretsUITests";
+			productReference = 2E0104A62C4CC0C600576119 /* Savory SecretsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E0104842C4CC0C500576119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2E01048B2C4CC0C500576119 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2E01049B2C4CC0C500576119 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2E01048B2C4CC0C500576119;
+					};
+					2E0104A52C4CC0C600576119 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2E01048B2C4CC0C500576119;
+					};
+				};
+			};
+			buildConfigurationList = 2E0104872C4CC0C500576119 /* Build configuration list for PBXProject "Savory Secrets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E0104832C4CC0C500576119;
+			productRefGroup = 2E01048D2C4CC0C500576119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E01048B2C4CC0C500576119 /* Savory Secrets */,
+				2E01049B2C4CC0C500576119 /* Savory SecretsTests */,
+				2E0104A52C4CC0C600576119 /* Savory SecretsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E01048A2C4CC0C500576119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0104972C4CC0C500576119 /* Preview Assets.xcassets in Resources */,
+				2E0104942C4CC0C500576119 /* Assets.xcassets in Resources */,
+				2E53B7242C4DC8930014D565 /* ChickenAndRice.png in Resources */,
+				2E2747C52C4D9910003AEDEB /* SavorySecretsLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E01049A2C4CC0C500576119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0104A42C4CC0C600576119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E0104882C4CC0C500576119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0104BF2C4CC12600576119 /* ShoppingListButton.swift in Sources */,
+				2EAEAC632C4DAB4200491DFB /* SavorySecretModel.xcdatamodeld in Sources */,
+				2E0104922C4CC0C500576119 /* ContentView.swift in Sources */,
+				2E0104902C4CC0C500576119 /* Savory_SecretsApp.swift in Sources */,
+				2E0104BD2C4CC11500576119 /* ViewRecipeButton.swift in Sources */,
+				2E2747C02C4D94A4003AEDEB /* AssetList.swift in Sources */,
+				2E0104BB2C4CC0F000576119 /* CreateRecipeButton.swift in Sources */,
+				2EAEAC652C4DB44800491DFB /* ShoppingListPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0104982C4CC0C500576119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0104A12C4CC0C500576119 /* Savory_SecretsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0104A22C4CC0C600576119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0104AD2C4CC0C600576119 /* Savory_SecretsUITestsLaunchTests.swift in Sources */,
+				2E0104AB2C4CC0C600576119 /* Savory_SecretsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E01049E2C4CC0C500576119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E01048B2C4CC0C500576119 /* Savory Secrets */;
+			targetProxy = 2E01049D2C4CC0C500576119 /* PBXContainerItemProxy */;
+		};
+		2E0104A82C4CC0C600576119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E01048B2C4CC0C500576119 /* Savory Secrets */;
+			targetProxy = 2E0104A72C4CC0C600576119 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E0104AE2C4CC0C600576119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E0104AF2C4CC0C600576119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E0104B12C4CC0C600576119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Savory Secrets/Preview Content\"";
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Savory-Secrets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E0104B22C4CC0C600576119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Savory Secrets/Preview Content\"";
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Savory-Secrets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E0104B42C4CC0C600576119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Savory-SecretsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Savory Secrets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Savory Secrets";
+			};
+			name = Debug;
+		};
+		2E0104B52C4CC0C600576119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Savory-SecretsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Savory Secrets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Savory Secrets";
+			};
+			name = Release;
+		};
+		2E0104B72C4CC0C600576119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Savory-SecretsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Savory Secrets";
+			};
+			name = Debug;
+		};
+		2E0104B82C4CC0C600576119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Savory-SecretsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Savory Secrets";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E0104872C4CC0C500576119 /* Build configuration list for PBXProject "Savory Secrets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0104AE2C4CC0C600576119 /* Debug */,
+				2E0104AF2C4CC0C600576119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0104B02C4CC0C600576119 /* Build configuration list for PBXNativeTarget "Savory Secrets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0104B12C4CC0C600576119 /* Debug */,
+				2E0104B22C4CC0C600576119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0104B32C4CC0C600576119 /* Build configuration list for PBXNativeTarget "Savory SecretsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0104B42C4CC0C600576119 /* Debug */,
+				2E0104B52C4CC0C600576119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0104B62C4CC0C600576119 /* Build configuration list for PBXNativeTarget "Savory SecretsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0104B72C4CC0C600576119 /* Debug */,
+				2E0104B82C4CC0C600576119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2EAEAC612C4DAB4200491DFB /* SavorySecretModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2EAEAC622C4DAB4200491DFB /* SavorySecretModel.xcdatamodel */,
+			);
+			currentVersion = 2EAEAC622C4DAB4200491DFB /* SavorySecretModel.xcdatamodel */;
+			name = SavorySecretModel.xcdatamodeld;
+			path = "/Users/nickwatts/Documents/XCode Projects/Savory Secrets/Savory Secrets/Menu/SavorySecretModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E0104842C4CC0C500576119 /* Project object */;
+}
