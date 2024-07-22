@@ -10,3 +10,8 @@ Welcome to the Recipe iOS App! This app, built using SwiftUI and ImageUI, allows
 ## Technology Stack
 - SwiftUI: Used for building the user interface with a declarative syntax.
 - ImageUI: Provides support for image handling and manipulation.
+
+## Collaborators
+- Nicholas Watts
+- Mateus Smith
+- Jakin Lee
